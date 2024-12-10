@@ -23,18 +23,17 @@ function Home() {
         </h1>
         <p>
           Hi, I’m <strong>Mateusz Kapel</strong>, a 22-year-old self-taught{" "}
-          <strong>Front-end developer</strong> with a passion for creating clean, responsive, and user-friendly websites.
+          <strong>Front-end developer</strong> who enjoys building clean, responsive, and easy-to-use websites.
         </p>
         <p>
-          I specialize in building engaging user interfaces using the latest web technologies. My goal is to create
-          seamless digital experiences that not only look good but also work flawlessly across devices.
+        I focus on creating great user interfaces with the latest web technologies. My goal is to make websites that look good and work smoothly on any device
         </p>
 
         <section className="getInTouch">
           <h2>Let's Connect!</h2>
           <p>
-            Whether you're interested in collaborating or just want to chat about web development, feel free to{" "}
-            <a href="mailto:mateusz.kapel6@gmail.com">get in touch</a>. I'm always excited to connect with like-minded individuals!
+            If you want to collaborate or just talk about web development, feel free to {" "}
+            <a href="mailto:mateusz.kapel6@gmail.com">reach out</a>. I’m always happy to connect with people who love creating cool things online!
           </p>
         </section>
       </div>

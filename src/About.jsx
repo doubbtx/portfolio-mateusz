@@ -13,11 +13,14 @@ function About() {
         <section className="myJourney">
           <h2>My Journey</h2>
           <p>
-            I started my journey as a developer out of curiosity and a passion for problem-solving. Over time, I taught myself <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, and <strong>React</strong>, and I continue to expand my skill set through online courses, projects, and collaboration with others.
+            I started my journey as a developer out of curiosity and a passion for problem-solving. I continue to expand my skill set through online courses, projects, and collaboration with others.
           </p>
           <p>
             I'm constantly looking for ways to improve my craft, whether it's learning new frameworks or focusing on best practices in web performance and accessibility.
           </p>
+          <p>
+        You can check my mini game that i made in react <strong><a href='https://doubbtx.github.io/game/'target="_blank"rel="noopener noreferrer">here</a></strong>
+        </p>
         </section>
 
         <section className="whatIEnjoy">
@@ -30,12 +33,10 @@ function About() {
             <li>🎮 Playing video games and testing my skills in problem-solving scenarios</li>
           </ul>
         </section>
-        <p>
-        I don't have any real projects, but you can check my mini game that i made in react <a href='https://doubbtx.github.io/game/'target="_blank"rel="noopener noreferrer">here</a>
-        </p>
       </div>
-<img src={photo} alt="Mateusz Kapel" />
+  <img src={photo} alt="Mateusz Kapel" />
     </div>
+      <h1>Technologies that i use </h1>
     <div className='cardsContainer'>
       <div className='Card'>
         <img src={javascript} alt="" />
