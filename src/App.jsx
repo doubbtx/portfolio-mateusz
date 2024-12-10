@@ -25,7 +25,7 @@ function App() {
   };
 
   return (
-  <Router basename="/portfolio-mateusz">
+  <Router>
       <nav>
         <div className="hamburger" onClick={toggleMenu}>
           <img src={menu} alt="" />
