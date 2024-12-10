@@ -35,7 +35,7 @@ function App() {
 
         <ul className={`nav-links ${isMenuOpen ? 'open' : ''}`}>
           <li>
-            <Link to="/portfolio-mateusz" onClick={handleLinkClick}>
+            <Link to="/home" onClick={handleLinkClick}>
               <button><img src={homeIcon} alt="Home" />Home</button>
             </Link>
           </li>
@@ -59,7 +59,7 @@ function App() {
 
       <main>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/contact" element={<Contact />} />
