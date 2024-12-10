@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { Navigate } from "react-router-dom";
 import linkedin from './linkedin_logo.png';
 import github from './github_logo.png';
@@ -25,7 +25,7 @@ function App() {
   };
 
   return (
-    <Router>
+  <Router basename="/portfolio-mateusz">
       <nav>
         <div className="hamburger" onClick={toggleMenu}>
           <img src={menu} alt="" />
