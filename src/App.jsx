@@ -139,9 +139,6 @@ function App() {
             <li>
               <Link to="/resume" onClick={handleLinkClick}>Resume</Link>
             </li>
-            <li>
-              <Link to="/contact" onClick={handleLinkClick}>Contact</Link>
-            </li>
           </ul>
         </div>
       </footer>
