@@ -35,7 +35,7 @@ function App() {
 
         <ul className={`nav-links ${isMenuOpen ? 'open' : ''}`}>
           <li>
-            <Link to="/" onClick={handleLinkClick}>
+            <Link to="/portfolio-mateusz" onClick={handleLinkClick}>
               <button><img src={homeIcon} alt="Home" />Home</button>
             </Link>
           </li>
